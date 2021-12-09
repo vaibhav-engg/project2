@@ -58,7 +58,7 @@ const CountdownTimer = () => {
       <button onClick={handleStart}>Begin</button>
       <button onClick={handlePause}>Pause</button>
 
-      {Start && <h1>{DisplayTime()}</h1>}
+      {Start && <h1>LEft Time : {DisplayTime()}</h1>}
       {time == 0 && Start && alert("countdown ended")}
     </div>
   );
